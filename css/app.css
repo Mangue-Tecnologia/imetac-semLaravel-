@@ -57,7 +57,8 @@
     position: fixed;
     transition: top 0.3s;
     z-index: 9;
-    background: rgba(255, 255, 255, 0.75);
+    /*background: rgba(255, 255, 255, 0.75);*/
+    background-color:white;
 }
 
 .header .content-header{
