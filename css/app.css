@@ -109,8 +109,8 @@
 
 /* ### Home ### */
 .home{
-	width:100%;
-	height: 150vh;
+	width:auto;
+	height: auto;
 	background-image: url('../images/backHome.png');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -141,7 +141,7 @@
 
 .home .button-home{
 
-  /*margin-left: 140px;*/
+ 
   padding: 12px 16px;
   border: none;
   background: white;
@@ -150,7 +150,6 @@
   font-family: 'Encode Sans', sans-serif;
   font-weight: 700;
   color:  #9F232D;
-  margin-left: 15%;
   font-size: 18pt;
   /*text-transform: uppercase;*/
   letter-spacing: .09em;
@@ -163,17 +162,20 @@
 
 .home .receber-noticia{
 	width: 100%;
-	height: 25vh;
+	height: 20vh;
 	background-color: #9F232D;
-	margin-top:15%;
+	
 	display: flex;
+
+
+
 
 }
 
 .home .title{
 	width: 20%;
 	background-color: white;
-	height: 25vh;
+	height: 20vh;
 	position: relative;
 }
 
@@ -211,7 +213,46 @@
   	width: 100%;
   	padding: 15px;
   	
+}
+.home .send-email{
+ 	
+    display: flex;
+    height: 9vh;
+    width: 5%;
+    margin-top: 2.5%;
+    margin-left: 2.6%;
+    align-items: center;
+    justify-content: center;
+    background-color: #4D4D4D;
+    
  }
+
+ .home .send-email i{
+ 	color: white;
+    font-size: 40pt;
+    margin: 0;
+    /* position: absolute; */
+    /* width: 10%; */
+    /* height: 20%; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* background-color: red; */
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* #### Sobre ##### */
 
