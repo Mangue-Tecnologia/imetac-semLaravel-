@@ -173,6 +173,9 @@
 }
 
 .home .title{
+	display:flex;
+	align-items: center;
+	justify-content: center;
 	width: 20%;
 	background-color: white;
 	height: 20vh;
@@ -195,7 +198,7 @@
 
 .home .title p{
 	font-family: 'Encode Sans', sans-serif;
-	font-size:  20pt;
+	font-size:  15pt;
 	font-weight: 400;
 	line-height: 1.1em;
 	text-align: center;
