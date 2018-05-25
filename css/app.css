@@ -231,26 +231,8 @@
  	color: white;
     font-size: 40pt;
     margin: 0;
-    /* position: absolute; */
-    /* width: 10%; */
-    /* height: 20%; */
-    /* align-items: center; */
-    /* text-align: center; */
-    /* background-color: red; */
+    
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -463,7 +445,46 @@
 
 */
 
+/* ###### Review ###### */
 
+
+.review .slider .item{
+	position: relative;
+}
+
+.slider-content{
+	position: absolute;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	top: 30%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: white;
+
+}
+
+.slider-content h1{
+	margin-bottom: 5%;
+	font-family: 'Encode Sans', sans-serif;
+	font-weight: 700;
+	font-size:3em;
+	color: white;
+	text-align: center;
+}
+
+.slider-content p{
+	
+	font-family: 'Encode Sans', sans-serif;
+	font-weight: 400;
+	color: white;
+	text-align: center;
+}
 
 
 
@@ -664,3 +685,45 @@
 		width: 100%;
 	}
 
+/* ###### Footer ######## */
+
+footer{
+	
+	background-color: #C5483F;
+	font-size: 1em;
+	color: #fff;
+}
+
+footer .content-footer
+{
+	background-color: #C5483F;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 1em;
+	padding-bottom: 20px;
+}
+
+footer h4{
+	font-size: 14px;
+	font-family: 'Encode Sans', sans-serif;
+}
+
+footer span{
+	font-size: 1.1em;
+	font-family: 'Encode Sans', sans-serif;
+}
+
+footer a {
+	width:20%;
+	margin-left:0px;
+	font-family: 'Encode Sans', sans-serif;
+	color: #fff;
+	
+}
+
+footer a:hover {
+	
+	color:#000;
+}
