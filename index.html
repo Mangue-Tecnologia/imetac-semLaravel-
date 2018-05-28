@@ -7,13 +7,28 @@
 		<meta charset="utf-8">
 		<title>Imelac</title>
 		<link rel = "stylesheet" type = "text/css" media= "screen" href="css/app.css">
+        <link rel = "stylesheet" type = "text/css" media= "screen" href="css/responsive.css">
+        <script src= "https://code.jquery.com/jquery-1.10.2.js"></script>
 		<!--<link rel = "stylesheet" type = "text/css" media= "screen" href="css/responsive.css">-->
 		<link href= "http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet">
-
+        <script src= "https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		 <link rel="stylesheet" type="text/css" href="css/plugins/slick.css"/>
     	<link rel="stylesheet" type="text/css" href="css/plugins/slick-theme.css"/>
 
-		
+		<script>
+            $(document).ready(function(){
+                $(".icon-menu a").click(function(){
+                $(".nav-mobile").toggle();
+                });
+            });
+
+            $(document).ready(function(){
+                $(".close a").click(function(){
+                $(".nav-mobile").hide();
+                });
+            });
+        </script>
 		
 	</head>
 
@@ -82,6 +97,53 @@
 		</div>
 
 
+        <section class="menu-mobile">
+            
+            <div class = "content content-header-mobile" >
+                <div class="logo-mobile">
+                    <a href="#">
+                        <img src = "images/logo.png">
+                    </a>
+                </div>
+                <div class = "menu-list-mobile">
+                    <div class = "icon-menu">
+                        <a href = "javascript:void(0);"><i class="ion-navicon-round" style="font-size: 40px"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="nav-mobile"> 
+                <div class = "close">
+                    <a href = "javascript:void(0);"><i class ="ion-android-close"></i></a>
+                </div>
+                <ul>
+                    <li>
+                        <a title="Home" href="#" aria-haspopup = "true">Home</a>
+                    </li>
+                    <li>
+                        <a title="Sobre" href="#" aria-haspopup = "true">Sobre</a>
+                    </li>
+                    <li>
+                        <a title="Equipamentos" href="#" aria-haspopup = "true">Equipamentos</a>
+                    </li>
+                    <li>
+                        <a title="Review" href="#" aria-haspopup = "true">Review</a>
+                    </li>
+                    <li>
+                        <a title="Noticias" href="#" aria-haspopup = "true">Notícias</a>
+                    </li>
+
+                    <li>
+                        <a title="Informacoes" href="#" aria-haspopup = "true">Informações</a>
+                    </li>
+                </ul>
+             </div>
+            
+
+    </section>
+
+
 		<!-- ##### Home ###### -->
 
 		<div class ="home">
@@ -125,7 +187,7 @@
 
         <!-- ##### Equipamentos ###### -->
 
-        <div class = "equipamentos">
+       <!-- <div class = "equipamentos">
         	<div class = "content-equipamentos">
         		<h1> Equipamentos</h1>
         		<div class = list-equipamento style="cursor: pointer;">
@@ -152,9 +214,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-
+    <!--Deixando o back se afastar da windown -->
+        <!-- 
         <div class = "review">
 
         	<div class="slider">
@@ -188,7 +251,7 @@
                     </div>
         		</div>
         	</div>
-        </div>
+        </div> -->
 
         <!-- PENDENTE(Aguardando resposta do cliente para ver se é necessário)
          ##### Nossa equipe ###### 
@@ -318,7 +381,7 @@
             </div>
             <div>
                 <a title= "Desenvolvido por Mangue Tecnologia" href ="http://manguetecnologia.com.br" target="_blank">
-                    <img src = "/img/logomangue.png" style="width:60%;">
+                    <img src = "images/logoMangue.png">
                 </a>
             </div>
         </div>

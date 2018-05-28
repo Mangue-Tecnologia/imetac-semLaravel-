@@ -287,7 +287,7 @@
 
 
 .list-sobre .item{
-	width: 20%;
+	max-width: 50%;
     margin-right: 5%;
     margin-bottom: 50px;
 	border:none;
@@ -295,6 +295,7 @@
 	height: 140px;
 	
 }
+
 
 /*.list-sobre .item:hover
 { 
@@ -319,6 +320,8 @@
 	text-align: center;
 	padding: 1em 0 1em 0;
 }
+
+
 .list-sobre .item:nth-child(3n){
 	margin-right: 0%;
 
@@ -421,7 +424,7 @@
  .list-equipamento .item-equipamento img{
  	width: 25%;
     position: absolute;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: -13%;
  }
 
