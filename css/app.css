@@ -786,6 +786,8 @@
 }
 
 .box-categorias .categoria:nth-child(3n){ margin-right: 0%;}
+.categoria .image-categoria img{width:70%;}
+.categoria .image-categoria, .categoria .nome, .categoria .dimensao, .categoria .detalhes{text-align: center; margin-bottom: 2%;}
 
 
 
