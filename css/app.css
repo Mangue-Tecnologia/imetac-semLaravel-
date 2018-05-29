@@ -787,7 +787,18 @@
 
 .box-categorias .categoria:nth-child(3n){ margin-right: 0%;}
 .categoria .image-categoria img{width:70%;}
-.categoria .image-categoria, .categoria .nome, .categoria .dimensao, .categoria .detalhes{text-align: center; margin-bottom: 2%;}
+.categoria .image-categoria, .categoria .nome, .categoria .dimensao, .categoria .detalhes
+{
+	text-align: center;
+	margin-bottom: 2%;
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+.categoria .detalhes a{
+	text-decoration: none;
+	color:  #9F232D;;
+}
+
+.categoria .detalhes i{color:  #9F232D;}
 
 
 
