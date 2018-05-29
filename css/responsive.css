@@ -147,15 +147,18 @@
 	}
 
 }
-
-@media(max-width: 451px){
-	.home .button-home{width: 60%;}
+@media(max-width:515px){
+	.equipamentos h1{font-size:32px;}
 }
 
 @media(max-width: 540px){
 	footer .content-footer{flex-direction: column;}
 
 }
+@media(max-width: 451px){
+	.home .button-home{width: 60%;}
+}
+
 
 @media(max-width:432px)
 {
