@@ -669,7 +669,7 @@
 
 }
 .publicacao span{color:#9F232D; font-family:'Encode Sans', sans-serif;}
-.resumo h4{margin-top: 90%; font-family:'Encode Sans', sans-serif;}
+.resumo h4{margin-top: 80%; font-family:'Encode Sans', sans-serif;}
 .resumo p{margin-top:2%; font-family:'Encode Sans', sans-serif;}
 .resumo a{
 	text-decoration: none;
@@ -680,6 +680,97 @@
 }
 .resumo i{margin-left: 2%;}
 
+/* #### Single Noticia ####*/
+
+.noticia
+{
+	padding-top: 96px;
+    padding-bottom: 96px;
+    background-color:white;
+}
+
+.noticia h1
+{
+	font-family: 'Encode Sans', sans-serif;
+  	color:  #9F232D;
+	font-size:  40pt;
+	font-weight: 700;
+	line-height: 1.1em;
+	margin-bottom: 3%;
+	
+}
+.noticia .noticia-content{
+	display: flex;
+	flex-direction:row;
+	width: 90%;
+	/* deixa os espaçamentos, centralizando mais o conteúdo*/
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-between;
+}
+.noticia .info{width:60%;}
+.noticia .info img{
+	margin-left:5%;
+	margin-bottom: 3%;
+	width:50%;
+}
+.noticia .info p{
+	font-family: 'Encode Sans', sans-serif;
+	font-weight: 400;
+	font-size:15pt;
+	margin-left: 5%;
+}
+.noticia .side-nav
+{
+	width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.noticia .title{
+	border-radius: 8px;
+	border:1px solid #9e9e9e;
+  	padding: 15px;
+  	letter-spacing: .09em;
+  	width: 60%;
+    text-align: center;
+    font-family: 'Encode Sans', sans-serif;
+    font-size:15pt;
+
+}
+
+.navbar-noticias ul {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 4%;
+}
+
+.navbar-noticias ul li{margin: 0 0 15px}
+
+.navbar-noticias ul li i{display: inline;}
+
+
+
+.navbar-noticias ul li a {
+	font-family: 'Encode Sans', sans-serif;
+	font-weight: 500;
+	font-size: 15pt;
+	color: #4D4D4D;
+	margin: 10px;
+    display: block;
+	padding: 5px;
+	text-decoration: none;
+	display: inline;
+}
+
+.navbar-noticias ul li a:hover
+{
+	background-color: #9F232D;
+	color:white;
+}
 
 /*.sobre .content-noticias
  {
