@@ -1,3 +1,4 @@
+.nav-mobile{display: none !important;}
 
 @media(max-width: 1189px){
 	.home .button-home{
@@ -5,10 +6,16 @@
 	}
 }
 
+@media(max-width: 1226px){
+	.aba-cadaEquipamento .info, .aba-cadaEquipamento .images{width: 50%;}
+	.aba-cadaEquipamento .info .botao-orcamento {width: 60%;}
+	.aba-cadaEquipamento > div, .aba-cadaEquipamento .info .botao-orcamento, .aba-cadaEquipamento .info .redes-socias h3{margin-bottom: 5%}
+}
+
 @media(max-width: 1097px){
 
 	.header{ display: none !important; }
-	.menu-mobile{ display: inline !important; }
+	.nav-mobile{ display: none !important; }
     
 	.menu-mobile
 	{
