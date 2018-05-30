@@ -314,7 +314,7 @@
 	transform: scale(2,3);
 
 }*/
-.list-sobre .item:nth-child(2n){
+.list-sobre .item:nth-child(2){
 	background-image: url('../images/sobre.png');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -322,7 +322,7 @@
 	box-shadow: 0 0 10px  rgba(0,0,0,0.5);
 
 }
-.list-sobre .item:nth-child(2n) p{
+.list-sobre .item:nth-child(2) p{
 	font-family: 'Encode Sans', sans-serif;
 	font-size:  17pt;
 	text-transform: uppercase;
@@ -335,7 +335,7 @@
 }
 
 
-.list-sobre .item:nth-child(3n){
+.list-sobre .item:nth-child(3){
 	margin-right: 0%;
 
 }
@@ -405,7 +405,7 @@
 	
 }
 
-.list-equipamento .item-equipamento:nth-child(2n){
+.list-equipamento .item-equipamento:nth-child(2){
 	margin-right: 0%;
 
 }
@@ -615,7 +615,7 @@
 	border-width: 1px;
 }
 
-.noticias-row .noticia-item:nth-child(2n){
+.noticias-row .noticia-item:nth-child(2){
 	margin-right: 0%;
 }
 
@@ -827,7 +827,7 @@
 	border-width: 1px;
 }
 
-.box-categorias .categoria:nth-child(3n){ margin-right: 0%;}
+.box-categorias .categoria:nth-child(3){ margin-right: 0%;}
 .categoria .image-categoria img{width:70%;}
 .categoria .image-categoria, .categoria .nome, .categoria .dimensao, .categoria .detalhes
 {
@@ -841,6 +841,110 @@
 }
 
 .categoria .detalhes i{color:  #9F232D;}
+
+
+/* ################# Aba-Infos(Cada categoria) ########################## */
+
+.aba-cadaEquipamento{
+	padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.aba-cadaEquipamento .content-cadaEquipamento{
+	display: flex;
+	flex-direction:row;
+	width: 90%;
+	/* deixa os espaçamentos, centralizando mais o conteúdo*/
+	margin-left: auto;
+	margin-right: auto;
+	/*justify-content: space-between;*/
+}
+
+
+.voltar{margin-right: 3%;}
+.images{width:30%; margin-right: 5%;}
+.box-images{
+	width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	
+}
+
+.box-images .item:nth-child(1){
+	width: 100%;
+	margin:0px;
+}
+.box-images .item:nth-child(4){
+	margin-right: 0px;
+}
+.box-images .item
+ {
+	width: 32%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+.box-images .item img{width: 100%;}
+
+.aba-cadaEquipamento .info{width:70%;}
+.aba-cadaEquipamento .info .nome{
+	background-color:#9F232D;
+	padding:10px;
+	color:white;
+	width: 50%;
+	font-size:15pt;
+	font-family: 'Encode Sans', sans-serif;
+}
+
+.aba-cadaEquipamento .info .dimensao{margin-top: 2%; margin-bottom: 2%}
+.aba-cadaEquipamento .info .dimensao h4{font-size: 20pt; font-family: 'Encode Sans', sans-serif; font-weight: 500;}
+.aba-cadaEquipamento .info .dimensao p{font-size: 15pt; font-family: 'Encode Sans', sans-serif;}
+
+.aba-cadaEquipamento .info .caracteristicas {margin-bottom: 3%}
+.aba-cadaEquipamento .info .caracteristicas h4{font-size: 20pt; font-family: 'Encode Sans', sans-serif; font-weight: 500;}
+.aba-cadaEquipamento .info .caracteristicas p{font-size: 15pt; font-family: 'Encode Sans', sans-serif;}
+
+.aba-cadaEquipamento .info .botao-orcamento 
+{
+	
+	padding: 12px 20px;
+    border: solid 3px;
+    background: #9F232D;
+    width: 40%;
+    font-family: 'Encode Sans', sans-serif;
+  	color: white;
+    font-size: 18pt;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 1s;
+    margin-bottom: 1.5%;
+    
+}
+
+.aba-cadaEquipamento .info .redes-socias h3 {font-size: 18pt; font-family: 'Encode Sans', sans-serif; font-weight: 500;}
+
+.aba-cadaEquipamento .info .redes-socias i{font-size: 25pt; margin-right: 3%; color:blue;}
+
+.aba-cadaEquipamento .tag
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.aba-cadaEquipamento .tag h4
+{
+	font-size: 20pt; 
+	font-family: 'Encode Sans', sans-serif; 
+	font-weight: 500;
+	margin-bottom: 2%;
+}
+.aba-cadaEquipamento .tag p
+{
+	font-size: 15pt; 
+	font-family: 'Encode Sans', sans-serif; 
+	font-weight: 300;
+	margin-bottom: 2%;
+}
 
 
 
