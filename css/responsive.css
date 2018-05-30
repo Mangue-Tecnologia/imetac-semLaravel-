@@ -8,8 +8,43 @@
 
 @media(max-width: 1226px){
 	.aba-cadaEquipamento .info, .aba-cadaEquipamento .images{width: 50%;}
-	.aba-cadaEquipamento .info .botao-orcamento {width: 60%;}
-	.aba-cadaEquipamento > div, .aba-cadaEquipamento .info .botao-orcamento, .aba-cadaEquipamento .info .redes-socias h3{margin-bottom: 5%}
+	.aba-cadaEquipamento .info .botao-orcamento {width: 60%; margin-top:5%; }
+	.aba-cadaEquipamento .info .caracteristicas { margin-top: 5%;}
+	.aba-cadaEquipamento > div, .aba-cadaEquipamento .info .botao-orcamento, .aba-cadaEquipamento .info .redes-socias h3{margin-bottom: 5%;}
+	.aba-cadaEquipamento .info .redes-socias {margin-top:15%; }
+	.aba-cadaEquipamento .info .redes-socias i { font-size: 30pt; margin-right: 5%;}
+}
+
+@media(max-width: 1219px){
+	.search-container{justify-content: center;}
+	.search-container form{width: 50%; margin-top: 3%; margin-bottom: 3%;}
+	.search-container button{margin-left: 35%;}
+	.title-style{width: 50%;}
+	.title-style p{font-size: 20pt;}
+}
+
+
+
+@media(max-width:1136px)
+{
+	.aba-cadaEquipamento .content-cadaEquipamento, .aba-cadaEquipamento .info
+	{
+		display:flex; 
+		flex-direction: column; 
+		align-items: center; 
+		justify-content: center;
+	}
+
+	.aba-cadaEquipamento .content-cadaEquipamento > div{margin-bottom: 5%;}
+	.aba-cadaEquipamento .info .redes-socias {margin-top: 2%;}
+	.aba-cadaEquipamento .voltar
+	{
+		width:100%;
+		display: flex;
+		justify-content: flex-start;
+
+	}
+	.aba-cadaEquipamento .voltar i {font-size: 35pt;}
 }
 
 @media(max-width: 1097px){
@@ -63,25 +98,7 @@
 }
 
 
-/*.logo-mobile{
-	width: 50%;
-}
 
-.logo-mobile a
-{
-	
-	width:160px;
-	
-	
-
-}
-
-.logo-mobile a img{
-
-	width:50%;
-
-	
-}*/
 	.icon-menu{
 		display: flex;
 		justify-content: flex-end;
@@ -118,9 +135,27 @@
 	
 }
 
-@media(max-width: 948px){
-	.menu-mobile{margin-top: 5%;}
+@media(max-width: 957px){
+	.search-container button{margin-left: 20%;}
 }
+
+@media(max-width: 950px){
+
+	.noticia .noticia-content
+	{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.noticia .info{margin-bottom: 4%;}
+	.noticia .info img {margin-left: 20%;}
+}
+
+@media(max-width: 948px){
+	.menu-mobile{margin-top: 4%;}
+}
+
 
 @media(max-width: 940px){
 	.list-equipamento .item-equipamento {flex: 50%;}
@@ -138,39 +173,149 @@
 	}
 }
 
+@media(max-width: 883px){
+	.noticias-row .noticia-item{
+	flex: 0 50%;
+}
+
+
+
+
+
+@media(max-width: 865px){
+	.aba-cadaEquipamento .content-cadaEquipamento .info{width: 100%;}
+	.aba-cadaEquipamento .content-cadaEquipamento .info .dimensao, .aba-cadaEquipamento .content-cadaEquipamento .info .caracteristicas {width: 50%;}
+}
+
+@media(max-width: 860px){
+	.list-sobre{
+		flex-direction: column
+	}
+	.list-sobre .item{
+		width: 100%;
+	}
+}
+
+@media(max-width: 854px){
+	.noticia h1 {font-size: 32pt;}
+	.noticia .info img{width: 70%; margin-left: 0;}
+	.noticia .info p{margin-left: 0px !important;}
+}
+
+@media(max-width: 825px){
+	.search-container button{margin-left: 10%;}
+}
+
+@media(max-width: 800px){
+	.menu-mobile{margin-top: 5%;}
+}
 @media(max-width: 790px){
 	.content-home h1{font-size: 30pt;}
 }
-
+/*
 @media(max-width:754px){
-	.menu-mobile{margin-top: 5%;}
+	.menu-mobile{margin-top: %;}
+}*/
+
+@media(max-width: 740px){
+	.noticia .side-nav, .noticia .info{width: 100%;}
+}
+@media(max-width: 723px)
+{
+	.aba-cadaEquipamento .content-cadaEquipamento .images{width:70%;}
+	.aba-cadaEquipamento .content-cadaEquipamento .info .nome, .aba-cadaEquipamento .content-cadaEquipamento .info .dimensao,
+	.aba-cadaEquipamento .content-cadaEquipamento .info .caracteristicas, .aba-cadaEquipamento .content-cadaEquipamento .info .redes-socias{width: 70%;}
 }
 @media(max-width: 720px){
 
+	.menu-mobile{margin-top: 5%;}
+	.menu-mobile .content-header-mobile > div {width: 100%;}
 	.list-sobre .item {max-width: 100%;}
 	.list-equipamento .item-equipamento {flex: 100%;}
 	.localizacao #map iframe{
 		width: 90%;
 	}
+	.title-style{width: 70%;}
 
+}
+
+@media(max-width: 688px){
+	.search-container form{padding:10px;}
+	.search-container input{font-size: 12pt; }
+	.search-container i{font-size: 170%;}
+}
+
+@media(max-width: 667px){
+	.menu-mobile { margin-top: 6%;}
+}
+
+@media(max-width: 600px){
+	.search-container button{margin-left: 25%;}
+	.search-container form{width:70%;}
 }
 @media(max-width:515px){
-	.equipamentos h1{font-size:32px;}
+	.equipamentos h1, .sobre h1, .noticias h1{font-size:50px;}
 }
 
+@media(max-width: 590px){
+	.noticias-row .noticia-item{
+	flex: 0 100%;
+}
+@media(max-width: 548px){
+	.logo-mobile img{margin-left: 0;}
+	.menu-mobile {margin-top: 7%;}
+}
 @media(max-width: 540px){
+	.title
+	{
+		flex-direction: column; 
+		margin-left: 0 !important;
+	}
+	.title a
+	{
+		/*text-align: center;*/
+		margin-bottom: 3%;
+		
+	}
+
+	.title-style{width: 100%;}
 	footer .content-footer{flex-direction: column;}
 
 }
+
+@media(max-width: 510px)
+{
+	.search-container form{width: 100%}
+}
+
+@media(max-width: 485px){
+.aba-cadaEquipamento .content-cadaEquipamento .images{width: 100%;}
+}
+
+@media(max-width: 455px){
+	.pre-header .content-preHeader
+	{
+		flex-direction: column;
+		height: 40px;
+	}
+	.menu-mobile{margin-top: 11%;
+	}
+		
+}
 @media(max-width: 451px){
 	.home .button-home{width: 60%;}
+}
+
+@media(max-width: 440px){
+	.aba-cadaEquipamento .content-cadaEquipamento .info .nome, .aba-cadaEquipamento .content-cadaEquipamento .info .dimensao,
+	.aba-cadaEquipamento .content-cadaEquipamento .info .caracteristicas, .aba-cadaEquipamento .info .botao-orcamento{width: 90%;}
 }
 
 
 @media(max-width:432px)
 {
 	.contact .orcamento h1{font-size: 20pt;}
-		
+
 }
 
 
@@ -181,3 +326,31 @@
 	
 }
 
+@media(max-width: 411px){
+	.noticia .info img {width: 100%;}
+	.noticia .info h1{font-size: 25pt;}
+}
+
+@media(max-width: 380px){
+	.aba-cadaEquipamento .info .botao-orcamento{width: 100%;}
+}
+
+@media(max-width: 374px){
+	.equipamentos h1 {font-size: 32px;}
+}
+
+@media(max-width: 378px){
+	.search-container button{margin-left: 20%;}
+}
+
+@media(max-width: 360px){
+	.search-container button{margin-left: 10%;}
+}
+
+@media(max-width: 348px){
+	.title-style p{font-size: 15pt;}
+}
+
+@media(max-width: 321px){
+	.noticia .info h1{font-size: 20pt;}
+}

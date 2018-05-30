@@ -295,7 +295,10 @@
 
 
 .list-sobre .item{
-	max-width: 50%;
+	flex: 0 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     margin-right: 5%;
     margin-bottom: 50px;
 	border:none;
@@ -621,10 +624,10 @@
 
 
 
-.image .image-noticia img{width: 100%; height: 30vh;}
+.image .image-noticia img{width: 100%;}
 .image .data 
 {
-	height: 8vh;
+	/*height: 8vh;*/
     position: absolute;
    	left: 0;
     top: 0;
@@ -712,7 +715,7 @@
 	border:1px solid #9e9e9e;
   	padding: 15px;
   	letter-spacing: .09em;
-  	width: 60%;
+  	width: 100%;
     text-align: center;
     font-family: 'Encode Sans', sans-serif;
     font-size:15pt;
@@ -988,7 +991,7 @@
 
 .orcamento h1{
 	margin-bottom: 5%;
-	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	font-family:'Encode Sans', sans-serif;
 	font-weight: 500;
 	color: white;
 }
@@ -1016,26 +1019,26 @@
 }
 
 ::-webkit-input-placeholder {
-	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	font-family: 'Encode Sans', sans-serif;
 	font-weight: 500;
   	color:  #282B32;
    
 }
 
 :-moz-placeholder {
-	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	font-family: 'Encode Sans', sans-serif;
 	font-weight: 500;
   	color:  #282B32;
 }
 
 ::-moz-placeholder {
-	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	font-family: 'Encode Sans', sans-serif;
 	font-weight: 500;
   	color:  #282B32;
 }
 
 :-ms-input-placeholder {  
-	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	font-family: 'Encode Sans', sans-serif;
 	font-weight: 500;
   	color:  #282B32;
 }
@@ -1065,7 +1068,7 @@
   background: white;
   color: #f2f2f2;
   width:30%;
-  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-family: 'Encode Sans', sans-serif;
   font-weight: 500;
   color:  #282B32;
   margin-left: 30%;
@@ -1095,13 +1098,13 @@
 
 .localizacao h1{
 	margin-bottom: 5%;
-	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	font-family: 'Encode Sans', sans-serif;
 	font-weight: 500;
 	color: white;
 }
 
 .localizacao p{
-	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	font-family: 'Encode Sans', sans-serif;
 	font-weight: 300;
 	color: white;
 	margin-bottom: 2%;
